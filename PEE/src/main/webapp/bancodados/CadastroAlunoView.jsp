@@ -33,19 +33,19 @@
               <fieldset>
                 <div class="form-group">
                   <input class="form-control" placeholder="Matrícula" name="matricula"
-                    type="text" value="${param.matricula}">
+                    type="text" value="">
                 </div>
                 <div class="form-group">
                   <input class="form-control" placeholder="Nome" name="nome"
-                    type="text" value="${param.nome}">
+                    type="text" value="">
                 </div>
                 <div class="form-group">
                   <input class="form-control" placeholder="Fone" name="fone"
-                    type="text" value="${param.fone}">
+                    type="text" value="">
                 </div>
                 <div class="form-group">
                   <input class="form-control" placeholder="CPF" name="cpf"
-                    type="text" value="${param.cpf}">
+                    type="text" value="">
                 </div>
                 <input type="submit" class="btn btn-sm btn-success" value="Incluir">
               </fieldset>

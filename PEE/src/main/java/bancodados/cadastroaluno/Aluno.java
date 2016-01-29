@@ -27,7 +27,7 @@ public class Aluno {
   public void incluir() {
     try {
       //Obtém a conexão.
-      String url = "jdbc:derby:C:\\banco-de-teste;create=true";
+      String url = "jdbc:derby:banco-de-teste;create=true";
       Connection conn = DriverManager.getConnection(url);
       //Cria a sentença SQL.
       String sql = "insert into aluno (matricula, nome, fone, cpf) values (?, ?, ?, ?)";
@@ -54,7 +54,7 @@ public class Aluno {
     try {
       
       //Obtém a conexão.
-      String url = "jdbc:derby:C:\\banco-de-teste;create=true";
+      String url = "jdbc:derby:banco-de-teste;create=true";
       Connection conn = DriverManager.getConnection(url);
       //Cria a sentença SQL.
       String sql = "select * from aluno order by matricula";
